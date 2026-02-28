@@ -1,0 +1,120 @@
+╔══════════════════════════════════════════════════════════════╗
+║           WikiAgent - Quick Start Guide                      ║
+║           AI-Powered Wikipedia Assistant                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+📋 BEFORE YOU START
+═══════════════════════════════════════════════════════════════
+
+1. Download & Install Node.js from: https://nodejs.org/
+   (Choose the LTS version - Long Term Support)
+
+2. Get NVIDIA API Key (FREE):
+   - Go to: https://build.nvidia.com/
+   - Sign up / Login
+   - Create an API key
+   - Copy the key (starts with "nvapi-")
+
+
+🚀 INSTALLATION STEPS
+═══════════════════════════════════════════════════════════════
+
+Step 1: Open Terminal/Command Prompt
+   Windows: Press Win+R, type "cmd", press Enter
+   Mac: Press Cmd+Space, type "terminal", press Enter
+   Linux: Press Ctrl+Alt+T
+
+Step 2: Navigate to Project Folder
+   cd path/to/adkagent-more-broken
+   
+   Example:
+   cd C:\Users\YourName\Desktop\adkagent-more-broken
+
+Step 3: Install Dependencies
+   npm install
+   
+   Wait 2-5 minutes for installation to complete
+
+Step 4: Add Your API Key
+   - Open the .env file in the project folder
+   - Replace "your_api_key_here" with your actual NVIDIA API key
+   
+   Example:
+   NVIDIA_API_KEY=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
+
+Step 5: Start the Application
+   npm run dev
+
+Step 6: Open in Browser
+   Go to: http://localhost:3000
+
+
+✅ VERIFICATION
+═══════════════════════════════════════════════════════════════
+
+You should see:
+✓ WikiAgent interface with a chat box
+✓ "Ask me anything" message
+✓ Input field at the bottom
+
+Try asking: "What is artificial intelligence?"
+
+
+❌ COMMON PROBLEMS & SOLUTIONS
+═══════════════════════════════════════════════════════════════
+
+Problem: "npm is not recognized"
+Solution: Install Node.js from https://nodejs.org/
+
+Problem: "Port 3000 is already in use"
+Solution: Run: npm run dev -- -p 3001
+         Then open: http://localhost:3001
+
+Problem: "Module not found"
+Solution: Delete node_modules folder and run: npm install
+
+Problem: API not working
+Solution: 
+  1. Check .env file has correct API key
+  2. No extra spaces in the key
+  3. Restart the server (Ctrl+C, then npm run dev)
+
+
+📝 EXAMPLE QUESTIONS TO TRY
+═══════════════════════════════════════════════════════════════
+
+• What is quantum computing?
+• Tell me about the Eiffel Tower
+• Who invented the telephone?
+• What is machine learning?
+• Explain photosynthesis
+
+
+🛑 TO STOP THE SERVER
+═══════════════════════════════════════════════════════════════
+
+Press: Ctrl + C (in the terminal)
+
+
+📚 NEED MORE HELP?
+═══════════════════════════════════════════════════════════════
+
+Read the detailed guides:
+• SETUP_GUIDE.md - Complete installation guide
+• DEPENDENCIES.md - All required packages
+• README.md - Project overview
+
+
+💡 TIPS
+═══════════════════════════════════════════════════════════════
+
+• Keep the terminal window open while using the app
+• Internet connection is required
+• First response might take 5-10 seconds
+• You can ask follow-up questions
+• Wikipedia sources are shown below each answer
+
+
+═══════════════════════════════════════════════════════════════
+           🎉 Enjoy using WikiAgent! 🎉
+═══════════════════════════════════════════════════════════════
